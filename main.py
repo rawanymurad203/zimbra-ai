@@ -1,5 +1,4 @@
 import os
-
 from src.preprocessing.parse_logs import parse_logs
 from src.model.root_cause_inference import run_inference
 from src.model.map_root_cause import map_root_cause
