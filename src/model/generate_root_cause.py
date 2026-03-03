@@ -8,7 +8,7 @@ def generate_root_causes(input_file, output_file):
 
     print("loading text generation model...")
     generator = pipeline(
-        "text-generation",   # correct task
+        "text-generation",   
         model="google/flan-t5-small"
     )
 
