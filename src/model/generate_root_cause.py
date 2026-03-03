@@ -19,7 +19,7 @@ def generate_root_causes(input_file, output_file):
     for i, row in data.iterrows():
         log_text = str(row["message"])
 
-        # create prompt
+        
         prompt = f"Summarize the main issue in these mail logs in ONE short sentence: {log_text}"
 
         # generate output
